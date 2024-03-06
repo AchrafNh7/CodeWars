@@ -9,6 +9,10 @@
 
 //solution
 
+function lovefunct(f1, f2){
+    return f1 % 2 != f2 % 2
+}
+
 
 function lovefunc(flower1, flower2){
     if((flower1 % 2 === 0) &&(flower2 % 2 != 0)){
