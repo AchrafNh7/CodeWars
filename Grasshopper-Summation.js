@@ -16,3 +16,5 @@ var summation = function (num) {
     }
       return arr.reduce((a,b)=>a+b)
    }
+
+   const summation = n => n * (n + 1) / 2;
