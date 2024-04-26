@@ -15,11 +15,10 @@
 
 function digPow(n, p){
     let nums = String(n).split('')
-    let power = p
     let sum = 0
     for(let i = 0; i < nums.length; i++){
-      sum += Math.pow(Number(nums[i]),power)
-      power++
+      sum += Math.pow(Number(nums[i]),p)
+      p++
     }
    return (sum % n) === 0 ? sum / n : -1
   }
