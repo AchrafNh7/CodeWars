@@ -44,14 +44,11 @@ function encrypt(text, n) {
           length.push(i)
         }
       }
-      
       let odds = split.slice(length.length)
       let evens = split.slice(0, length.length)
-      
       for(let i = 0; i < odds.length; i++){
         result.push(odds[i] , evens[i])
       }
-      
        if(!n == 1){
        return result.join('')
      }else {
