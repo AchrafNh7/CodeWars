@@ -14,5 +14,5 @@ function findDifference(a, b) {
     let sumOfA = a.reduce((acc,cur)=> acc * cur) 
     let sumOfB = b.reduce((acc,cur)=> acc * cur) 
     return sumOfA > sumOfB ? sumOfA - sumOfB
-                           : sumOfB - sumOfB
+                           : sumOfB - sumOfA
   }
